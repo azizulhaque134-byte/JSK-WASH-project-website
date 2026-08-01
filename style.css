@@ -1,0 +1,785 @@
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f8fb;
+}
+
+.hero{
+    padding:80px 0;
+}
+
+.hero h1{
+    font-size:48px;
+    font-weight:700;
+    color:#003366;
+}
+
+.hero p{
+    margin:20px 0;
+    color:#555;
+    font-size:18px;
+}
+
+.navbar-brand{
+    font-size:24px;
+}
+
+.btn-primary{
+    padding:12px 30px;
+}
+.card{
+    transition:0.3s;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    transition:0.3s;
+}
+
+.card:hover i{
+    transform:scale(1.2);
+}
+
+section{
+    overflow:hidden;
+}
+.about-box{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.about-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.mission-section{
+
+    background:#0d6efd;
+
+    color:white;
+
+}
+
+.mission-card{
+
+    background:rgba(255,255,255,.12);
+
+    padding:30px;
+
+    border-radius:15px;
+
+    backdrop-filter:blur(5px);
+
+}
+
+.objective-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.objective-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.objective-card h4{
+
+    font-size:42px;
+
+    color:#0d6efd;
+
+    font-weight:bold;
+
+}
+/* =========================
+   WASH COMPONENTS
+========================= */
+
+.wash-section{
+
+    background:#f8fbff;
+
+}
+
+.wash-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    height:100%;
+
+}
+
+.wash-card:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.wash-card img{
+
+    width:100%;
+
+    height:230px;
+
+    object-fit:cover;
+
+}
+
+.icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#fff;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+.water{
+
+    background:#0d6efd;
+
+}
+
+.sanitation{
+
+    background:#198754;
+
+}
+
+.hygiene{
+
+    background:#0dcaf0;
+
+}
+
+.wash-card h3{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.wash-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.wash-card .btn{
+
+    margin-top:10px;
+
+}
+/* ===========================
+STATISTICS
+=========================== */
+
+.statistics-section{
+
+    background:#0B3C5D;
+
+    color:white;
+
+    padding:90px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h6{
+
+    color:#7bdff2;
+
+    letter-spacing:2px;
+
+    font-weight:700;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+
+    font-weight:bold;
+
+    margin:15px 0;
+
+}
+
+.stat-card{
+
+    background:white;
+
+    color:#333;
+
+    text-align:center;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+    margin-bottom:30px;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-card i{
+
+    font-size:45px;
+
+    color:#0d6efd;
+
+    margin-bottom:20px;
+
+}
+
+.stat-card h2{
+
+    font-size:42px;
+
+    font-weight:bold;
+
+}
+
+.stat-card h5{
+
+    margin-top:10px;
+
+}
+
+/* ===========================
+ACHIEVEMENTS
+=========================== */
+
+.achievement-section{
+
+    padding:90px 0;
+
+    background:#f8f9fa;
+
+}
+
+.achievement-card{
+
+    background:white;
+
+    text-align:center;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    margin-bottom:30px;
+
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.achievement-card i{
+
+    font-size:50px;
+
+    color:#198754;
+
+    margin-bottom:20px;
+
+}
+
+.achievement-card h4{
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+
+}
+/* =======================
+GALLERY
+======================= */
+
+.gallery-section{
+
+    padding:90px 0;
+
+    background:white;
+
+}
+
+.gallery-filter button{
+
+    margin:5px;
+
+    border:none;
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:10px 25px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.gallery-filter button:hover{
+
+    background:#084298;
+
+}
+
+.gallery-card{
+
+    overflow:hidden;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+}
+
+.gallery-card img{
+
+    width:100%;
+
+    height:260px;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.gallery-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* Lightbox */
+
+#lightbox{
+
+    display:none;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.9);
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+#lightbox img{
+
+    max-width:90%;
+
+    max-height:90%;
+
+}
+
+#close{
+
+    position:absolute;
+
+    top:25px;
+
+    right:40px;
+
+    color:white;
+
+    font-size:45px;
+
+    cursor:pointer;
+
+}
+/* =======================
+DOCUMENTS
+======================= */
+
+.documents-section{
+
+    background:#f8fbff;
+
+}
+
+.document-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    height:100%;
+
+}
+
+.document-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.document-card i{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.document-card h4{
+
+    font-weight:700;
+
+}
+
+.document-card p{
+
+    color:#666;
+
+}
+
+.dashboard-section{
+
+    padding:90px 0;
+
+    background:white;
+
+}
+
+.dashboard-frame{
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+
+}
+/* ===========================
+CONTACT
+=========================== */
+
+.contact-section{
+
+    background:#f8fbff;
+
+}
+
+.contact-info{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    height:100%;
+
+}
+
+.contact-info h3{
+
+    font-weight:bold;
+
+}
+
+.contact-info p{
+
+    margin:18px 0;
+
+    font-size:17px;
+
+}
+
+.contact-info i{
+
+    color:#0d6efd;
+
+    width:30px;
+
+}
+
+.contact-form{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact-form input{
+
+    height:55px;
+
+}
+
+.contact-form textarea{
+
+    resize:none;
+
+}
+
+.contact-form button{
+
+    padding:12px 35px;
+
+}
+
+.map-section iframe{
+
+    display:block;
+
+}
+/* Footer */
+
+.footer{
+
+background:#0B3C5D;
+
+color:white;
+
+padding:70px 0;
+
+}
+
+.footer a{
+
+color:white;
+
+text-decoration:none;
+
+}
+
+.footer ul{
+
+list-style:none;
+
+padding:0;
+
+}
+
+.footer li{
+
+margin:10px 0;
+
+}
+
+.footer i{
+
+font-size:22px;
+
+margin-right:12px;
+
+}
+
+/* Dark Mode */
+
+.dark-mode{
+
+background:#121212;
+
+color:white;
+
+}
+
+.dark-mode section{
+
+background:#1c1c1c !important;
+
+color:white;
+
+}
+
+.dark-mode .card,
+
+.dark-mode .stat-card,
+
+.dark-mode .achievement-card,
+
+.dark-mode .document-card,
+
+.dark-mode .contact-form,
+
+.dark-mode .contact-info{
+
+background:#2b2b2b;
+
+color:white;
+
+}
+
+/* Theme Button */
+
+.theme-btn{
+
+position:fixed;
+
+right:20px;
+
+bottom:90px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#0d6efd;
+
+color:white;
+
+font-size:22px;
+
+z-index:999;
+
+}
+
+/* Back To Top */
+
+#topBtn{
+
+display:none;
+
+position:fixed;
+
+right:20px;
+
+bottom:20px;
+
+width:55px;
+
+height:55px;
+
+border:none;
+
+border-radius:50%;
+
+background:#198754;
+
+color:white;
+
+font-size:22px;
+
+cursor:pointer;
+
+z-index:999;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+.section-title h2{
+
+font-size:28px;
+
+}
+
+}
