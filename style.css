@@ -777,7 +777,13 @@ font-size:32px;
 }
 
 .section-title h2{
+/* ================= Hero Image ================= */
 
+.hero-image{
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+}
 font-size:28px;
 
 }
