@@ -776,18 +776,16 @@ font-size:32px;
 
 }
 
-}
 .section-title h2{
 
 font-size:28px;
 
 }
 
-}
 /* ================= Hero Image ================= */
 
 .hero-image{
-    max-width: 300px;
-    width: 100%;
-    height: auto;
+    width: 300px !important;
+    max-width: 300px !important;
+    height: auto !important;
 }
